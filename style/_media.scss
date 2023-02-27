@@ -1,8 +1,10 @@
 
 @media screen and (max-width:1250px){
-
     .container{
         max-width: 1074px;
+    }
+    .offer__photo {
+    margin-right: 0;
     }
     .offer_wrap {
         padding-top: 38px;
@@ -373,3 +375,15 @@
         justify-content: center;
     }
  }
+ @media screen and (max-width:525px){
+    .container{
+        max-width: 430px;
+    }
+    
+    }
+ @media screen and (max-width:360px){
+    .container{
+        max-width: 320px;
+    }
+    }
+ 
