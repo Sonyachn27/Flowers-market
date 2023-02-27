@@ -1,0 +1,378 @@
+
+@media screen and (max-width:1250px){
+
+    .container{
+        max-width: 1074px;
+    }
+    .offer_wrap {
+        padding-top: 38px;
+    }
+    .present_text {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 310px;
+        width: 100%;
+    }
+    .present_text{
+         
+    h1 {
+        font-size: 30px;
+        line-height: 37px;
+    }
+    p{
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+.present_btn {
+    padding: 25px 40px;
+    max-width: 267px;
+}
+    .offer__photo {
+        grid-template-rows: repeat(5, 85px);
+        gap: 10px;
+        margin-right: 10px;
+    }
+.delivery_block {
+    max-width: 300px;
+    gap: 12px;
+}
+.offer_wrap {
+    margin-bottom: 10px;
+}
+ .card-link {
+    padding: 155px 0px;
+    max-width: 330px;
+}
+.map_info {
+    max-width: 330px;
+    right: 50px;
+    left: auto;
+}
+ }
+ @media screen and (max-width:1109px){
+   .container{
+    max-width: 950px;
+   }
+    .offer_present{
+        align-items: center;
+        justify-content: center;
+    }
+    .offer__photo{
+        display: flex;
+    }
+    .img-up{
+        display: none;
+    }
+    .delivery_block {
+        max-width: 250px;
+        gap: 6px;
+    }
+    .card-link {
+        padding: 130px 0px;
+        max-width: 310px;
+    }
+    .card__title {
+        font-size: 30px;
+        line-height: 48px;
+    }
+    .sale_text  {
+        
+        h2 {
+        font-size: 36px;
+        line-height: 40px;
+        margin-left: 30px;
+    }
+}
+.sale_paragraph {
+    font-size: 21px;
+    line-height: 26px;
+    margin-left: 30px;
+}
+ }
+ @media screen and (max-width: 884px){
+    .container{
+        max-width: 750px;
+    }
+    .card-line{
+        justify-content: center;
+    }
+    .card2{
+        display: none;
+    }
+    .sale_text  {
+        h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+ }
+ .sale_paragraph {
+    font-size: 1rem;
+    max-width: 275px;
+}
+ .reviews_order {
+    margin-bottom: 0px;
+}
+}
+ @media screen and (max-width:740px){
+    .container{
+        max-width: 650px;
+    }
+    header{
+        border: none;
+        padding: 5px;
+        margin-top: 0;
+    }
+    #menu-bar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 0;
+        left: 10px;
+        width: 30px;
+        height: 30px;
+        z-index: 5;
+    }
+    .bar{
+        width: 30px;
+        height: 2px;
+        background: #000000;
+        position: absolute;
+        z-index: 1;
+    }
+    #bar1{
+        top: 10px;
+        left: 5px;
+    }
+    #bar2{
+        width: 20px;
+        top: 17px;
+        left: 5px;
+    }
+    #bar3{
+        top: 25px;
+        left: 5px;
+    }
+    .header__list{
+        position: fixed;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #FFEFBA;
+        transform: translateX(-100%);
+        transition: transform 0.5s; 
+        flex-direction: column;
+        padding: 10px 0;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        z-index: 0;
+    }
+    .active .header__list {
+        transform: translateX(0);
+    }
+    .active #bar2{
+        display: none;
+    }
+    .active #bar1{
+        top: 50%;
+        left: 25%;
+        transform: translate(-50%, 0%) rotate(45deg);
+    }
+    .active #bar3{
+        top: 50%;
+        left: 25%;
+        transform: translate(-50%, 0%) rotate(-45deg);
+    }
+    .header_mobil{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: #FFEFBA;
+        display: flex;
+        gap: 10px;
+        padding: 10px;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 5;
+    }
+    .mobil_social{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 280px;
+    }
+    .search-wrap{
+        display: block;
+        width: 30px;
+        height: 30px; 
+        position: relative; 
+    }
+    .search-wrap::after{
+        content: '';
+        width: 30px;
+        height: 30px;
+        display: block;
+        background: url(../images/search-sm-svgrepo-com.svg) center center / cover no-repeat;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    #search{
+        display: flex;
+        width: 30px;
+        height: 30px;
+    }
+    .phone{
+        display: flex;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+            img{
+                width: 100%;
+            }
+    }
+    .social-box{
+        display: flex;
+        gap: 10px;
+    }
+    .btn-social{
+        display: flex;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+            img{
+                width: 100%;
+            }
+    }
+    .offer_present{
+        flex-direction: column;
+    }
+    .present_text{
+        h1{
+            text-align: center;
+            width: 100%;
+        }
+        p{
+            width: 100%;
+            text-align: center;
+        }
+    }
+    .offer__delivery {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .delivery-img{
+        width: 90px;
+        img{
+            width: 100%;
+        }
+    }
+   
+    .slider__slide-wrap {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .slider__slide-text {
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    .price {
+        margin-bottom: 0;
+    }
+    .present_btn {
+        margin-bottom: 10px;
+    }
+    .slider__slide-img {
+        max-width: 281px;
+    }
+    .custom-next,
+    .custom-prev {
+        width: 40px;
+        background-size: 75%;
+    }
+    .slider__slide-img{
+        max-width: 387px;
+        width: 100%;
+        order: 1;
+            img{
+                width: 100%;
+            }
+    }
+    .slider__slide-text{
+        order: 2;
+        p{
+            display: none;
+        }
+    }
+    .size{
+        text-align: center;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .sale__img{
+        display: none;
+    }
+    .sale_text{
+        background: url(../images/florist-makes-beautiful-bouquet-studio.png) center center / cover no-repeat;
+        align-items: center;
+        h2{
+            max-width: fit-content;
+        }
+        
+    }
+
+    .sale_paragraph{
+        max-width: 100%;
+        margin-bottom: 35px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .map_info{
+        max-width: 250px;
+        h2{
+            font-size: 25px;
+        }
+    }
+    .info_title{
+        font-size: 1rem;
+    }
+    .info-addres{
+        font-size: 0.8rem;
+    }
+ }
+ @media screen and (max-width:625px){
+    .container{
+        max-width: 530px;
+    }
+    .delivery_block {
+        margin-bottom: 15px;
+        max-width: max-content;
+    }
+    .card-line{
+        flex-wrap: wrap;
+    }
+    .card2{
+        display: flex;
+    }
+    .reviews_order{
+        h3{
+            text-align: center;
+        }
+    }
+    .reviews_wrapper {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+ }

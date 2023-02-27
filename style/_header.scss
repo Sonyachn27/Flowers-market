@@ -1,0 +1,27 @@
+header{
+    display: flex;
+    border-top: 1px solid #AE7C78;
+    border-bottom: 1px solid #AE7C78;
+}
+nav{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.header__list{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 22px;
+    align-items: center;
+    color: $purple;
+}
+.list_item{
+    width: fit-content;
+    height: fit-content;
+        a{
+            width: fit-content;
+        }
+        a:hover{
+            color:$hover-color;
+        }
+}

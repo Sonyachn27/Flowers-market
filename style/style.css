@@ -1,0 +1,949 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+#menu-bar {
+  display: none;
+}
+
+.menu-bg {
+  display: none;
+}
+
+.header_mobil {
+  display: none;
+}
+
+ul {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  border-top: 1px solid #AE7C78;
+  border-bottom: 1px solid #AE7C78;
+}
+
+nav {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.header__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 22px;
+  align-items: center;
+  color: #b56761;
+}
+
+.list_item {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.list_item a {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.list_item a:hover {
+  color: #7d5151;
+}
+
+.offer_wrap {
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  margin-bottom: 80px;
+}
+
+.offer_present {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 48px;
+}
+
+.present_text {
+  display: flex;
+  flex-direction: column;
+  max-width: 384px;
+  width: 100%;
+}
+.present_text h1 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 59px;
+  color: #b56761;
+  width: 100%;
+  margin-bottom: 24px;
+}
+.present_text p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  width: 100%;
+  color: #b56761;
+  margin-bottom: 64px;
+}
+
+.present_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 65px;
+  max-width: 285px;
+  border: none;
+  border-radius: 40px;
+  color: #ffffff;
+  background: #D89999;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.present_btn:hover {
+  transform: translateY(-10px);
+  background-color: #7d5151;
+  transition: 0.75s ease;
+}
+
+.offer__photo {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 1fr;
+  grid-template-rows: repeat(5, 90px);
+  gap: 20px;
+}
+
+.offer-img {
+  width: 100%;
+  max-width: 387px;
+}
+.offer-img img {
+  width: 100%;
+}
+
+.img-up {
+  display: flex;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 6;
+}
+
+.img-down {
+  display: flex;
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+
+.offer__delivery {
+  display: flex;
+  justify-content: space-between;
+  color: #b56761;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.delivery_block {
+  display: flex;
+  width: 100%;
+  max-width: 367px;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.delivery_img {
+  width: 100%;
+  max-width: 75px;
+}
+.delivery_img img {
+  width: 100%;
+}
+
+.delivery_text {
+  display: flex;
+  flex-direction: column;
+}
+
+.delivery-title {
+  font-weight: 500;
+}
+
+.delivery-paragraph {
+  font-weight: 400;
+}
+
+.sliderbar-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px;
+  gap: 36px;
+  font-family: "Montserrat";
+  color: #b56761;
+}
+
+.image-slider.image-slider {
+  position: relative;
+  display: flex;
+  min-width: 0;
+  max-width: 798px;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 70px;
+  padding-bottom: 25px;
+}
+
+.image-slider__wrapper.image-slider__wrapper {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.slider__slide {
+  max-width: 100% x;
+}
+
+.slider__slide-wrap {
+  display: flex;
+  width: 100%;
+}
+
+.sliderbar-wrapper h2 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.slider__slide-text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 380px;
+}
+.slider__slide-text span:nth-child(1) {
+  display: flex;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+.slider__slide-text p,
+.slider__slide-text .size {
+  display: flex;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  max-width: 384px;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.price {
+  display: flex;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 64px;
+}
+
+.price_btn {
+  padding: 30px 107px;
+  max-width: 285px;
+  width: 100%;
+}
+
+.slider__slide-img {
+  max-width: 387px;
+  width: 100%;
+  order: 1;
+}
+.slider__slide-img img {
+  width: 100%;
+}
+
+.slider__slide-text {
+  order: 2;
+}
+.slider__slide-text p {
+  display: none;
+}
+
+.size {
+  text-align: center;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-next {
+  position: absolute;
+  top: 95%;
+  left: 52%;
+  width: 50px;
+  height: 15px;
+  cursor: pointer;
+  background: url(../images/Arrow1.svg) center center/cover no-repeat;
+}
+
+.custom-prev {
+  position: absolute;
+  top: 95%;
+  left: 44%;
+  width: 50px;
+  height: 15px;
+  cursor: pointer;
+  background: url(../images/Arrow2.svg) center center/cover no-repeat;
+}
+
+.custom-next:hover,
+.custom-prev:hover {
+  transform: scale(1.1);
+  transition: 0.75s ease-in;
+}
+
+.sale__img {
+  display: none;
+}
+
+.sale_text {
+  background-image: url(../images/florist-makes-beautiful-bouquet-studio.png) center center/cover no-repeat;
+}
+
+.card-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 19px;
+  margin-bottom: 80px;
+}
+
+.card-link {
+  display: flex;
+  flex-direction: column;
+  padding: 183px 23px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 387px;
+  gap: 8px;
+}
+
+.card1 {
+  position: relative;
+  background: url(../images/sammi-sP5CaWEN7Do-unsplash1.png) center center/cover no-repeat;
+}
+
+.card2 {
+  position: relative;
+  background: url(../images/fresh-beautiful-peony-flowers-vase1.png) center center/cover no-repeat;
+}
+
+.card3 {
+  position: relative;
+  background: url(../images/alyssa-strohmann-tnpr-hPOta0-unsplash1.png) center center/cover no-repeat;
+}
+
+.card-link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(174, 124, 120, 0.6);
+  bottom: 0;
+  left: 0;
+  border-radius: 10px;
+  z-index: 0;
+}
+
+.card__title {
+  font-family: "Playfair Display";
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  z-index: 1;
+  text-align: center;
+}
+
+.card__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  z-index: 1;
+  text-align: center;
+}
+
+.card_sale {
+  display: flex;
+  color: #ffffff;
+}
+
+.sale_text {
+  display: flex;
+  flex-direction: column;
+  background: #AE7C78;
+  width: 100%;
+}
+.sale_text h2 {
+  width: 100%;
+  max-width: 466px;
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 59px;
+  letter-spacing: 0.02em;
+  text-align: start;
+  margin-left: 125px;
+}
+
+.sale_paragraph {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  width: 100%;
+  max-width: 387px;
+  margin-left: 125px;
+}
+
+.sale__img {
+  width: 100%;
+  max-width: 590px;
+}
+.sale__img img {
+  width: 100%;
+  max-width: 590px;
+  height: 100%;
+}
+
+.reviews_wrap {
+  display: flex;
+  flex-direction: column;
+  color: #b56761;
+}
+
+.reviews_order {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+.reviews_order h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+}
+
+.reviews_wrapper {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.order-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 285px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.order-card img {
+  max-width: 66px;
+}
+
+.order_title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.order_paragraph {
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.map {
+  margin: 0 auto;
+  position: relative;
+  color: #b56761;
+}
+.map iframe {
+  width: 100%;
+  z-index: 0;
+}
+
+.map_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 386px;
+  position: absolute;
+  top: 85px;
+  left: 350px;
+  background: #F7FAFC;
+  box-shadow: 0px 4px 40px rgba(217, 217, 217, 0.3);
+  border-radius: 12px;
+}
+.map_info h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  font-family: "Playfair Display";
+  margin-bottom: 42px;
+}
+
+.info_title,
+.info-addres {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.info_title {
+  margin-bottom: 21px;
+}
+
+.info-addres {
+  font-weight: 500;
+  margin-bottom: 31px;
+}
+
+@media screen and (max-width: 1250px) {
+  .container {
+    max-width: 1074px;
+  }
+  .offer_wrap {
+    padding-top: 38px;
+  }
+  .present_text {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 310px;
+    width: 100%;
+  }
+  .present_text h1 {
+    font-size: 30px;
+    line-height: 37px;
+  }
+  .present_text p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .present_btn {
+    padding: 25px 40px;
+    max-width: 267px;
+  }
+  .offer__photo {
+    grid-template-rows: repeat(5, 85px);
+    gap: 10px;
+    margin-right: 10px;
+  }
+  .delivery_block {
+    max-width: 300px;
+    gap: 12px;
+  }
+  .offer_wrap {
+    margin-bottom: 10px;
+  }
+  .card-link {
+    padding: 155px 0px;
+    max-width: 330px;
+  }
+  .map_info {
+    max-width: 330px;
+    right: 50px;
+    left: auto;
+  }
+}
+@media screen and (max-width: 1109px) {
+  .container {
+    max-width: 950px;
+  }
+  .offer_present {
+    align-items: center;
+    justify-content: center;
+  }
+  .offer__photo {
+    display: flex;
+  }
+  .img-up {
+    display: none;
+  }
+  .delivery_block {
+    max-width: 250px;
+    gap: 6px;
+  }
+  .card-link {
+    padding: 130px 0px;
+    max-width: 310px;
+  }
+  .card__title {
+    font-size: 30px;
+    line-height: 48px;
+  }
+  .sale_text h2 {
+    font-size: 36px;
+    line-height: 40px;
+    margin-left: 30px;
+  }
+  .sale_paragraph {
+    font-size: 21px;
+    line-height: 26px;
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 884px) {
+  .container {
+    max-width: 750px;
+  }
+  .card-line {
+    justify-content: center;
+  }
+  .card2 {
+    display: none;
+  }
+  .sale_text h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .sale_paragraph {
+    font-size: 1rem;
+    max-width: 275px;
+  }
+  .reviews_order {
+    margin-bottom: 0px;
+  }
+}
+@media screen and (max-width: 740px) {
+  .container {
+    max-width: 650px;
+  }
+  header {
+    border: none;
+    padding: 5px;
+    margin-top: 0;
+  }
+  #menu-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 0;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    z-index: 5;
+  }
+  .bar {
+    width: 30px;
+    height: 2px;
+    background: #000000;
+    position: absolute;
+    z-index: 1;
+  }
+  #bar1 {
+    top: 10px;
+    left: 5px;
+  }
+  #bar2 {
+    width: 20px;
+    top: 17px;
+    left: 5px;
+  }
+  #bar3 {
+    top: 25px;
+    left: 5px;
+  }
+  .header__list {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #FFEFBA;
+    transform: translateX(-100%);
+    transition: transform 0.5s;
+    flex-direction: column;
+    padding: 10px 0;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+  }
+  .active .header__list {
+    transform: translateX(0);
+  }
+  .active #bar2 {
+    display: none;
+  }
+  .active #bar1 {
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, 0%) rotate(45deg);
+  }
+  .active #bar3 {
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, 0%) rotate(-45deg);
+  }
+  .header_mobil {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #FFEFBA;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+  }
+  .mobil_social {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 280px;
+  }
+  .search-wrap {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+  }
+  .search-wrap::after {
+    content: "";
+    width: 30px;
+    height: 30px;
+    display: block;
+    background: url(../images/search-sm-svgrepo-com.svg) center center/cover no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  #search {
+    display: flex;
+    width: 30px;
+    height: 30px;
+  }
+  .phone {
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+  }
+  .phone img {
+    width: 100%;
+  }
+  .social-box {
+    display: flex;
+    gap: 10px;
+  }
+  .btn-social {
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+  }
+  .btn-social img {
+    width: 100%;
+  }
+  .offer_present {
+    flex-direction: column;
+  }
+  .present_text h1 {
+    text-align: center;
+    width: 100%;
+  }
+  .present_text p {
+    width: 100%;
+    text-align: center;
+  }
+  .offer__delivery {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .delivery-img {
+    width: 90px;
+  }
+  .delivery-img img {
+    width: 100%;
+  }
+  .slider__slide-wrap {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .slider__slide-text {
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .price {
+    margin-bottom: 0;
+  }
+  .present_btn {
+    margin-bottom: 10px;
+  }
+  .slider__slide-img {
+    max-width: 281px;
+  }
+  .custom-next,
+  .custom-prev {
+    width: 40px;
+    background-size: 75%;
+  }
+  .slider__slide-img {
+    max-width: 387px;
+    width: 100%;
+    order: 1;
+  }
+  .slider__slide-img img {
+    width: 100%;
+  }
+  .slider__slide-text {
+    order: 2;
+  }
+  .slider__slide-text p {
+    display: none;
+  }
+  .size {
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .sale__img {
+    display: none;
+  }
+  .sale_text {
+    background: url(../images/florist-makes-beautiful-bouquet-studio.png) center center/cover no-repeat;
+    align-items: center;
+  }
+  .sale_text h2 {
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+  .sale_paragraph {
+    max-width: 100%;
+    margin-bottom: 35px;
+    margin-left: 0;
+    text-align: center;
+  }
+  .map_info {
+    max-width: 250px;
+  }
+  .map_info h2 {
+    font-size: 25px;
+  }
+  .info_title {
+    font-size: 1rem;
+  }
+  .info-addres {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 625px) {
+  .container {
+    max-width: 530px;
+  }
+  .delivery_block {
+    margin-bottom: 15px;
+    max-width: -moz-max-content;
+    max-width: max-content;
+  }
+  .card-line {
+    flex-wrap: wrap;
+  }
+  .card2 {
+    display: flex;
+  }
+  .reviews_order h3 {
+    text-align: center;
+  }
+  .reviews_wrapper {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=style.css.map */

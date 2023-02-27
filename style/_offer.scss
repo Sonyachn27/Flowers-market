@@ -1,0 +1,116 @@
+.offer_wrap{
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    margin-bottom: 80px;
+}
+.offer_present{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 48px;
+}
+.present_text{
+    display: flex;
+    flex-direction: column;
+    max-width: 384px;
+    width: 100%;
+        h1{
+            font-family: $Playfair;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 44px;
+            line-height: 59px;
+            color: $purple;
+            width: 100%;
+            margin-bottom: 24px;
+    }
+        p{
+            font-family: $Monserat;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29px;
+            width: 100%;
+            color: $purple;
+            margin-bottom: 64px;
+        }
+}
+.present_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 65px;
+    max-width: 285px;
+    border: none;
+    border-radius: 40px;
+    color: $white;
+    background: $bg-btn;
+    font-family: $Monserat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+.present_btn:hover{
+    transform: translateY(-10px);
+    background-color:$hover-color;
+    transition: 0.75s ease;
+}
+.offer__photo{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 1fr ;
+    grid-template-rows: repeat(5, 90px);
+    gap: 20px;
+}
+.offer-img{
+    width: 100%;
+    max-width: 387px;
+        img{
+            width: 100%;
+        }
+}
+.img-up{
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 6;
+}
+.img-down {
+    display: flex;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+.offer__delivery{
+    display: flex;
+    justify-content: space-between;
+    color: $purple;
+    @include paragraph;
+}
+.delivery_block{
+    display: flex;
+    width: 100%;
+    max-width: 367px;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.delivery_img{
+    width: 100%;
+    max-width: 75px;
+        img{
+            width: 100%;
+        }
+}
+.delivery_text{
+    display: flex;
+    flex-direction: column;
+}
+.delivery-title{
+    font-weight: 500;
+}
+.delivery-paragraph{
+    font-weight: 400;
+}

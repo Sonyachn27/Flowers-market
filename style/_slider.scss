@@ -1,0 +1,126 @@
+.sliderbar-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 36px;
+    font-family: $Monserat;
+    color:$purple;
+}
+.image-slider.image-slider {
+    position: relative;
+    display: flex;
+    min-width: 0;
+    max-width: 798px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 70px;
+    padding-bottom: 25px;
+  }
+  .image-slider__wrapper.image-slider__wrapper{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+.slider__slide{
+    max-width: 100%x;
+}
+.slider__slide-wrap{
+    display: flex;
+    width: 100%;
+
+}
+
+.sliderbar-wrapper {
+    h2{
+        font-family: $Playfair;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+        letter-spacing: 0.02em;
+        text-align: center;
+    }
+}
+.slider__slide-text{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 380px;
+    span:nth-child(1){
+        display: flex;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+    }
+    p,
+    .size {
+        display: flex;
+        @include paragraph;
+        max-width: 384px;
+        width: 100%;
+        margin-bottom: 24px;
+    }
+}
+.price{
+    display: flex;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 64px;
+}
+.price_btn{
+    padding: 30px 107px;
+    max-width: 285px;
+    width: 100%;
+}
+.slider__slide-img{
+    max-width: 387px;
+    width: 100%;
+    order: 1;
+        img{
+            width: 100%;
+        }
+}
+.slider__slide-text{
+    order: 2;
+    p{
+        display: none;
+    }
+}
+.size{
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.custom-next{
+    position: absolute;
+    top:95%;
+    left:52%;
+    width: 50px;
+    height: 15px;
+    cursor: pointer;
+    background: url(../images/Arrow1.svg) center center / cover no-repeat;
+}
+.custom-prev{
+    position: absolute;
+    top:95%;
+    left:44%;
+    width: 50px;
+    height: 15px;
+    cursor: pointer;
+    background: url(../images/Arrow2.svg) center center / cover no-repeat;
+}
+.custom-next:hover,
+.custom-prev:hover{
+    transform: scale(1.1);
+    transition: 0.75s ease-in;
+}
+.sale__img{
+    display: none;
+}
+.sale_text{
+    background-image: url(../images/florist-makes-beautiful-bouquet-studio.png) center center / cover no-repeat;
+}

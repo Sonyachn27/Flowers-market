@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+// $purple: #AE7C78;
+$purple: #b56761;
+$white: #ffffff;
+$bg-btn: #D89999;
+$hover-color:#7d5151;
+$Monserat: 'Montserrat';
+$Playfair: 'Playfair Display';
+@mixin paragraph{
+    font-family: $Monserat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+body{
+    margin: 0;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a,
+button{
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+}
+#menu-bar{
+    display: none;
+}
+.menu-bg{
+    display: none;
+}
+.header_mobil{
+    display: none;
+}
+ul{
+    margin: 0;
+}
+@import "./header.scss";
+@import "./offer.scss";
+@import "./slider.scss";
+@import "./card.scss";
+@import "./reviews.scss";
+@import "./map.scss";
+@import "./media.scss";
