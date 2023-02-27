@@ -30,7 +30,6 @@
     width: 100%;
 
 }
-
 .sliderbar-wrapper {
     h2{
         font-family: $Playfair;
@@ -75,26 +74,7 @@
     max-width: 285px;
     width: 100%;
 }
-.slider__slide-img{
-    max-width: 387px;
-    width: 100%;
-    order: 1;
-        img{
-            width: 100%;
-        }
-}
-.slider__slide-text{
-    order: 2;
-    p{
-        display: none;
-    }
-}
-.size{
-    text-align: center;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-}
+
 .custom-next{
     position: absolute;
     top:95%;
@@ -117,10 +97,4 @@
 .custom-prev:hover{
     transform: scale(1.1);
     transition: 0.75s ease-in;
-}
-.sale__img{
-    display: none;
-}
-.sale_text{
-    background-image: url(../images/florist-makes-beautiful-bouquet-studio.png) center center / cover no-repeat;
 }
